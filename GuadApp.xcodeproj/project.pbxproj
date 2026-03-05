@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0874F9DDA5CCB1D67E3C4C7B /* ProfileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528FBD6607825D79F53C11ED /* ProfileStore.swift */; };
+		204D7A454C0E3B55279F3E59 /* GuadAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E130D9AA9C25B8F6BF2CB51 /* GuadAppApp.swift */; };
+		33309FAE1DC483F1FD9C50C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50607BDCB67D06451AD172FC /* Assets.xcassets */; };
+		88F8F3057E8727356D35FA21 /* MenuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7515BDDB1FF87473A8E8CB91 /* MenuData.swift */; };
+		89B39C05B2E8E665B5AC334E /* CartStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B8455C4E8A110F3052003C /* CartStore.swift */; };
+		8AC524B61A955FF60708E836 /* MenuItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C129F71C9F37C26828B8B41B /* MenuItemDetailView.swift */; };
+		95C7F8B791FC1B08493416BD /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A5A6737A3EF1F38A358726 /* Theme.swift */; };
+		9F6AB3A2B01C103DFF25AB39 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6DCF7DC7C15DAB07A12A9E /* Models.swift */; };
+		A80C7D3C45C06D51F2CDA079 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CDCB02EB5606B892EBFDA4 /* MainView.swift */; };
+		AA7C408430B9062072AA11A2 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC66F83815C276D51D8A2385 /* MenuView.swift */; };
+		B61633367C237135E08C6486 /* MenuItemCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC211F3AC1DF56C80BE2C3FF /* MenuItemCard.swift */; };
+		BAA45B01FDFEFE2EC8F7B7D5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48E3A613424A8C60FFC6388 /* ProfileView.swift */; };
+		DABC5E2628BF05399DFD1C47 /* CategoryBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F07076E34B691033208C46 /* CategoryBar.swift */; };
+		E6AF0BCE0CA5D4877C76FFF8 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821542EF6365C3BC7C48557D /* CartView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05F07076E34B691033208C46 /* CategoryBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryBar.swift; sourceTree = "<group>"; };
+		50607BDCB67D06451AD172FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		528FBD6607825D79F53C11ED /* ProfileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileStore.swift; sourceTree = "<group>"; };
+		7515BDDB1FF87473A8E8CB91 /* MenuData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuData.swift; sourceTree = "<group>"; };
+		821542EF6365C3BC7C48557D /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		89B8455C4E8A110F3052003C /* CartStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartStore.swift; sourceTree = "<group>"; };
+		9E130D9AA9C25B8F6BF2CB51 /* GuadAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuadAppApp.swift; sourceTree = "<group>"; };
+		9F7E2018A976BBD956439EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AE87C7DFD792F5540B8BA651 /* GuadApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuadApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C129F71C9F37C26828B8B41B /* MenuItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailView.swift; sourceTree = "<group>"; };
+		CC211F3AC1DF56C80BE2C3FF /* MenuItemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCard.swift; sourceTree = "<group>"; };
+		D48E3A613424A8C60FFC6388 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		EC66F83815C276D51D8A2385 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		F1CDCB02EB5606B892EBFDA4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F4A5A6737A3EF1F38A358726 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		FF6DCF7DC7C15DAB07A12A9E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1695517BF72CBD8A3700A73A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1CDCB02EB5606B892EBFDA4 /* MainView.swift */,
+				E7A61874B7CFB82588DF9017 /* Cart */,
+				9D1BE9A6C2CF50EBE15EA609 /* Menu */,
+				7970B6BB906D6694743A0698 /* Profile */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4DD3C499134AE6FFA07B5C43 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9E130D9AA9C25B8F6BF2CB51 /* GuadAppApp.swift */,
+				9F7E2018A976BBD956439EB5 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5078B8D3E666BD0916CC650F /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				F4A5A6737A3EF1F38A358726 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		5683B5B10977BA4EC5339BCF /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				89B8455C4E8A110F3052003C /* CartStore.swift */,
+				528FBD6607825D79F53C11ED /* ProfileStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		715257B5C1DDB35D8B9F8359 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7515BDDB1FF87473A8E8CB91 /* MenuData.swift */,
+				FF6DCF7DC7C15DAB07A12A9E /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7489D3EBDB1ED71A5FDAF39F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE87C7DFD792F5540B8BA651 /* GuadApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7970B6BB906D6694743A0698 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D48E3A613424A8C60FFC6388 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8DB54A03BDFDC549E89F7AD8 /* GuadApp */ = {
+			isa = PBXGroup;
+			children = (
+				50607BDCB67D06451AD172FC /* Assets.xcassets */,
+				4DD3C499134AE6FFA07B5C43 /* App */,
+				715257B5C1DDB35D8B9F8359 /* Models */,
+				5683B5B10977BA4EC5339BCF /* Stores */,
+				5078B8D3E666BD0916CC650F /* Theme */,
+				1695517BF72CBD8A3700A73A /* Views */,
+			);
+			path = GuadApp;
+			sourceTree = "<group>";
+		};
+		9D1BE9A6C2CF50EBE15EA609 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				05F07076E34B691033208C46 /* CategoryBar.swift */,
+				CC211F3AC1DF56C80BE2C3FF /* MenuItemCard.swift */,
+				C129F71C9F37C26828B8B41B /* MenuItemDetailView.swift */,
+				EC66F83815C276D51D8A2385 /* MenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		A370778C859E2BBE74BDF759 = {
+			isa = PBXGroup;
+			children = (
+				8DB54A03BDFDC549E89F7AD8 /* GuadApp */,
+				7489D3EBDB1ED71A5FDAF39F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7A61874B7CFB82588DF9017 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				821542EF6365C3BC7C48557D /* CartView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C12F4A4D7DE17C779D7780D8 /* GuadApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B34D9B1F75D3FEFC6E571B /* Build configuration list for PBXNativeTarget "GuadApp" */;
+			buildPhases = (
+				8F0799383121ED759E1DDCE9 /* Sources */,
+				12357543315DDBF761CF50CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuadApp;
+			packageProductDependencies = (
+			);
+			productName = GuadApp;
+			productReference = AE87C7DFD792F5540B8BA651 /* GuadApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7B7F0AE3AAFC5F06B49A63D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 2D1591763EAAEEB9C3C71A41 /* Build configuration list for PBXProject "GuadApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A370778C859E2BBE74BDF759;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C12F4A4D7DE17C779D7780D8 /* GuadApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12357543315DDBF761CF50CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33309FAE1DC483F1FD9C50C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F0799383121ED759E1DDCE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B39C05B2E8E665B5AC334E /* CartStore.swift in Sources */,
+				E6AF0BCE0CA5D4877C76FFF8 /* CartView.swift in Sources */,
+				DABC5E2628BF05399DFD1C47 /* CategoryBar.swift in Sources */,
+				204D7A454C0E3B55279F3E59 /* GuadAppApp.swift in Sources */,
+				A80C7D3C45C06D51F2CDA079 /* MainView.swift in Sources */,
+				88F8F3057E8727356D35FA21 /* MenuData.swift in Sources */,
+				B61633367C237135E08C6486 /* MenuItemCard.swift in Sources */,
+				8AC524B61A955FF60708E836 /* MenuItemDetailView.swift in Sources */,
+				AA7C408430B9062072AA11A2 /* MenuView.swift in Sources */,
+				9F6AB3A2B01C103DFF25AB39 /* Models.swift in Sources */,
+				0874F9DDA5CCB1D67E3C4C7B /* ProfileStore.swift in Sources */,
+				BAA45B01FDFEFE2EC8F7B7D5 /* ProfileView.swift in Sources */,
+				95C7F8B791FC1B08493416BD /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6CE880B12C7DE9991F42DE98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AA686D6CE0D2D6D04A572DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B28660867A9E14629B44982E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = GuadApp/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guads.app;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D0597D5E4B2CD82C49445015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 25YX97TQQ4;
+				INFOPLIST_FILE = GuadApp/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guads.app;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D1591763EAAEEB9C3C71A41 /* Build configuration list for PBXProject "GuadApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA686D6CE0D2D6D04A572DE0 /* Debug */,
+				6CE880B12C7DE9991F42DE98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E6B34D9B1F75D3FEFC6E571B /* Build configuration list for PBXNativeTarget "GuadApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28660867A9E14629B44982E /* Debug */,
+				D0597D5E4B2CD82C49445015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7B7F0AE3AAFC5F06B49A63D /* Project object */;
+}

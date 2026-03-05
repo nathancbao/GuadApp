@@ -1,0 +1,30 @@
+name: GuadApp
+options:
+  bundleIdPrefix: com.guads
+  deploymentTarget:
+    iOS: "17.0"
+
+configs:
+  Debug: debug
+  Release: release
+
+targets:
+  GuadApp:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - GuadApp
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.guads.app
+        SWIFT_VERSION: "5.9"
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        INFOPLIST_FILE: GuadApp/App/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS: YES
+        TARGETED_DEVICE_FAMILY: "1"
+        CODE_SIGN_STYLE: Automatic
