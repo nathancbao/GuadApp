@@ -31,6 +31,8 @@
     <array>
         <string>UIInterfaceOrientationPortrait</string>
     </array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Guad's uses your location to detect when you're near the food truck and reward you with a free taco promo.</string>
     <key>LSApplicationQueriesSchemes</key>
     <array>
         <string>doordash</string>

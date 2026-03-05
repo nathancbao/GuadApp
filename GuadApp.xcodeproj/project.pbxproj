@@ -3,13 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 63;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0874F9DDA5CCB1D67E3C4C7B /* ProfileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528FBD6607825D79F53C11ED /* ProfileStore.swift */; };
+		10D8FD60AB08225B442AB852 /* ClueImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82402DCC14B8F03C74BF7637 /* ClueImageView.swift */; };
+		154D87058188BE497A788FBF /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524B96435816F9BA60595365 /* LocationService.swift */; };
 		204D7A454C0E3B55279F3E59 /* GuadAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E130D9AA9C25B8F6BF2CB51 /* GuadAppApp.swift */; };
 		33309FAE1DC483F1FD9C50C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50607BDCB67D06451AD172FC /* Assets.xcassets */; };
+		7039BE56E4594CA77D0FC81B /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305A8EC3D045A57ADB3C9EAB /* NotificationService.swift */; };
+		7C630BB195635C5A198A4DB3 /* TruckHuntView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325DA3EA6580BE0CC12E3054 /* TruckHuntView.swift */; };
 		88F8F3057E8727356D35FA21 /* MenuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7515BDDB1FF87473A8E8CB91 /* MenuData.swift */; };
 		89B39C05B2E8E665B5AC334E /* CartStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B8455C4E8A110F3052003C /* CartStore.swift */; };
 		8AC524B61A955FF60708E836 /* MenuItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C129F71C9F37C26828B8B41B /* MenuItemDetailView.swift */; };
@@ -21,18 +25,24 @@
 		BAA45B01FDFEFE2EC8F7B7D5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48E3A613424A8C60FFC6388 /* ProfileView.swift */; };
 		DABC5E2628BF05399DFD1C47 /* CategoryBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F07076E34B691033208C46 /* CategoryBar.swift */; };
 		E6AF0BCE0CA5D4877C76FFF8 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821542EF6365C3BC7C48557D /* CartView.swift */; };
+		F742C76723CC4DB63A7D2EC6 /* ClaimRewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8324DF466E22BBCC16A24490 /* ClaimRewardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		05F07076E34B691033208C46 /* CategoryBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryBar.swift; sourceTree = "<group>"; };
+		305A8EC3D045A57ADB3C9EAB /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		325DA3EA6580BE0CC12E3054 /* TruckHuntView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckHuntView.swift; sourceTree = "<group>"; };
 		50607BDCB67D06451AD172FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		524B96435816F9BA60595365 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		528FBD6607825D79F53C11ED /* ProfileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileStore.swift; sourceTree = "<group>"; };
 		7515BDDB1FF87473A8E8CB91 /* MenuData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuData.swift; sourceTree = "<group>"; };
 		821542EF6365C3BC7C48557D /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		82402DCC14B8F03C74BF7637 /* ClueImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClueImageView.swift; sourceTree = "<group>"; };
+		8324DF466E22BBCC16A24490 /* ClaimRewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimRewardView.swift; sourceTree = "<group>"; };
 		89B8455C4E8A110F3052003C /* CartStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartStore.swift; sourceTree = "<group>"; };
 		9E130D9AA9C25B8F6BF2CB51 /* GuadAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuadAppApp.swift; sourceTree = "<group>"; };
 		9F7E2018A976BBD956439EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		AE87C7DFD792F5540B8BA651 /* GuadApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuadApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE87C7DFD792F5540B8BA651 /* GuadApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = GuadApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C129F71C9F37C26828B8B41B /* MenuItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailView.swift; sourceTree = "<group>"; };
 		CC211F3AC1DF56C80BE2C3FF /* MenuItemCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCard.swift; sourceTree = "<group>"; };
 		D48E3A613424A8C60FFC6388 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -50,6 +60,7 @@
 				E7A61874B7CFB82588DF9017 /* Cart */,
 				9D1BE9A6C2CF50EBE15EA609 /* Menu */,
 				7970B6BB906D6694743A0698 /* Profile */,
+				B321C15169540922DA48353D /* TruckHunt */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -97,6 +108,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		74EB1F96C7D1F3B4F3D82B35 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				524B96435816F9BA60595365 /* LocationService.swift */,
+				305A8EC3D045A57ADB3C9EAB /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		7970B6BB906D6694743A0698 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +131,7 @@
 				50607BDCB67D06451AD172FC /* Assets.xcassets */,
 				4DD3C499134AE6FFA07B5C43 /* App */,
 				715257B5C1DDB35D8B9F8359 /* Models */,
+				74EB1F96C7D1F3B4F3D82B35 /* Services */,
 				5683B5B10977BA4EC5339BCF /* Stores */,
 				5078B8D3E666BD0916CC650F /* Theme */,
 				1695517BF72CBD8A3700A73A /* Views */,
@@ -135,6 +156,16 @@
 				8DB54A03BDFDC549E89F7AD8 /* GuadApp */,
 				7489D3EBDB1ED71A5FDAF39F /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		B321C15169540922DA48353D /* TruckHunt */ = {
+			isa = PBXGroup;
+			children = (
+				8324DF466E22BBCC16A24490 /* ClaimRewardView.swift */,
+				82402DCC14B8F03C74BF7637 /* ClueImageView.swift */,
+				325DA3EA6580BE0CC12E3054 /* TruckHuntView.swift */,
+			);
+			path = TruckHunt;
 			sourceTree = "<group>";
 		};
 		E7A61874B7CFB82588DF9017 /* Cart */ = {
@@ -174,6 +205,11 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C12F4A4D7DE17C779D7780D8 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 2D1591763EAAEEB9C3C71A41 /* Build configuration list for PBXProject "GuadApp" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -185,6 +221,7 @@
 			);
 			mainGroup = A370778C859E2BBE74BDF759;
 			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -212,16 +249,21 @@
 				89B39C05B2E8E665B5AC334E /* CartStore.swift in Sources */,
 				E6AF0BCE0CA5D4877C76FFF8 /* CartView.swift in Sources */,
 				DABC5E2628BF05399DFD1C47 /* CategoryBar.swift in Sources */,
+				F742C76723CC4DB63A7D2EC6 /* ClaimRewardView.swift in Sources */,
+				10D8FD60AB08225B442AB852 /* ClueImageView.swift in Sources */,
 				204D7A454C0E3B55279F3E59 /* GuadAppApp.swift in Sources */,
+				154D87058188BE497A788FBF /* LocationService.swift in Sources */,
 				A80C7D3C45C06D51F2CDA079 /* MainView.swift in Sources */,
 				88F8F3057E8727356D35FA21 /* MenuData.swift in Sources */,
 				B61633367C237135E08C6486 /* MenuItemCard.swift in Sources */,
 				8AC524B61A955FF60708E836 /* MenuItemDetailView.swift in Sources */,
 				AA7C408430B9062072AA11A2 /* MenuView.swift in Sources */,
 				9F6AB3A2B01C103DFF25AB39 /* Models.swift in Sources */,
+				7039BE56E4594CA77D0FC81B /* NotificationService.swift in Sources */,
 				0874F9DDA5CCB1D67E3C4C7B /* ProfileStore.swift in Sources */,
 				BAA45B01FDFEFE2EC8F7B7D5 /* ProfileView.swift in Sources */,
 				95C7F8B791FC1B08493416BD /* Theme.swift in Sources */,
+				7C630BB195635C5A198A4DB3 /* TruckHuntView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,10 +407,6 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.guads.app;
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -380,10 +418,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 25YX97TQQ4;
 				INFOPLIST_FILE = GuadApp/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -392,12 +429,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.guads.app;
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

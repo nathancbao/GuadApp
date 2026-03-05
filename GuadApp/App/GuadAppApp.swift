@@ -10,6 +10,9 @@ struct GuadAppApp: App {
             MainView()
                 .environmentObject(cartStore)
                 .environmentObject(profileStore)
+                .onAppear {
+                    NotificationService.shared.requestPermission()
+                }
         }
     }
 }
