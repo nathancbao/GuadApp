@@ -164,6 +164,15 @@ struct MenuItemDetailView: View {
                     }
 
                     // ── Add to Cart ───────────────────────────────────────────
+                    if !canAdd {
+                        Text("Please select a meat option to continue")
+                            .font(.system(size: 12))
+                            .foregroundColor(.guadOrange)
+                            .frame(maxWidth: .infinity, alignment: .center)
+                            .padding(.horizontal, 20)
+                            .padding(.bottom, 4)
+                    }
+
                     Button {
                         guard canAdd else { return }
                         cartStore.add(item, meat: selectedMeat.isEmpty ? nil : selectedMeat)
@@ -203,14 +212,6 @@ struct MenuItemDetailView: View {
                     .disabled(!canAdd || addedToCart)
                     .padding(.horizontal, 20)
                     .padding(.bottom, 32)
-
-                    if !canAdd {
-                        Text("Please select a meat option to continue")
-                            .font(.system(size: 12))
-                            .foregroundColor(.guadOrange)
-                            .frame(maxWidth: .infinity, alignment: .center)
-                            .padding(.bottom, 8)
-                    }
                 }
             }
             .ignoresSafeArea(edges: .top)

@@ -32,14 +32,9 @@ struct MainView: View {
                                     Circle()
                                         .fill(Color.guadRed.opacity(0.12))
                                         .frame(width: 36, height: 36)
-                                    if profileStore.isComplete {
-                                        Text(profileStore.avatarEmoji)
-                                            .font(.system(size: 18))
-                                    } else {
-                                        Image(systemName: "person.fill")
-                                            .font(.system(size: 15, weight: .semibold))
-                                            .foregroundColor(.guadRed)
-                                    }
+                                    Image(systemName: "person.fill")
+                                        .font(.system(size: 15, weight: .semibold))
+                                        .foregroundColor(.guadRed)
                                 }
                             }
                         }
@@ -72,10 +67,19 @@ struct MainView: View {
 
             // ── Tab 2: Truck Hunt ─────────────────────────────────────────────
             TruckHuntView()
+                .toolbarBackground(.visible, for: .tabBar)
                 .tabItem {
                     Label("Find Truck", systemImage: "mappin.and.ellipse")
                 }
                 .tag(1)
+
+            // ── Tab 3: Events ─────────────────────────────────────────────────
+            EventsView()
+                .toolbarBackground(.visible, for: .tabBar)
+                .tabItem {
+                    Label("Events", systemImage: "ticket.fill")
+                }
+                .tag(2)
         }
         .tint(.guadRed)
         .sheet(isPresented: $showCart) {
