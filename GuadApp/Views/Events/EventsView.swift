@@ -20,6 +20,7 @@ struct EventsView: View {
                         .frame(height: 260)
 
                         VStack(spacing: 6) {
+                            Spacer().frame(height: 20)
                             Text("GUAD'S PRESENTS")
                                 .font(.system(size: 11, weight: .heavy))
                                 .foregroundColor(.white.opacity(0.5))
@@ -143,7 +144,6 @@ struct EventsView: View {
                     .padding(.bottom, 20)
                 }
             }
-            .ignoresSafeArea(edges: .top)
         }
     }
 }

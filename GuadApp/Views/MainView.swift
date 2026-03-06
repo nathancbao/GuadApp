@@ -82,6 +82,18 @@ struct MainView: View {
                 .tag(2)
         }
         .tint(.guadRed)
+        .gesture(
+            DragGesture(minimumDistance: 40, coordinateSpace: .local)
+                .onEnded { value in
+                    let h = value.translation.width
+                    let v = value.translation.height
+                    guard abs(h) > abs(v) * 1.5 else { return }
+                    withAnimation(.easeInOut(duration: 0.25)) {
+                        if h < -40 { selectedTab = min(selectedTab + 1, 2) }
+                        else if h > 40 { selectedTab = max(selectedTab - 1, 0) }
+                    }
+                }
+        )
         .sheet(isPresented: $showCart) {
             CartView().environmentObject(cartStore)
         }
